@@ -1,0 +1,154 @@
+@import url('http://fonts.googleapis.com/css?family=Raleway');
+@import url('http://fonts.googleapis.com/css?family=Lato');
+body {
+	font-family: 'Lato', 'Helvetica Neue','Helvetica',sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+	background-size: contain;
+	background-attachment: fixed;
+}
+
+a{
+	color: #55E;
+    text-decoration: none;
+}
+
+a:hover { 
+    color: #00E;
+      text-decoration: none;
+}
+
+input:focus { 
+    background-color: #00E
+
+}
+
+@media screen and (min-width: 992px) {
+    
+    body {
+	background-image: url("../img/background.jpg");
+	font-size: 16px;
+    }
+
+    main {
+    	margin-top: 20px;
+    	margin-bottom: 20px;
+    	margin-right: 20px;
+    	margin-left: 30%;
+    }
+
+    #container-fluid {
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	
+	header > nav{
+		margin-right:inherit + 10px;
+		margin-top: inherit + 10px;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	body {
+		font-size: 18px;
+	}
+
+	header > h3{
+		display: none;
+	}
+
+	nav > ul {
+		padding: 0em 0em 0em 0em;
+	}
+
+	nav > ul > li {
+		display: inline-block;
+		list-style-type: none;
+		margin-right: 1em;
+	}
+	#container-fluid {
+		margin-top: 20px;
+    	margin-bottom: 20px;
+    	margin-right: 20px;
+    	margin-left: 30%;
+
+	}
+
+	
+
+}
+
+h1 {
+	font-family: 'Raleway', 'Helvetica Neue','Helvetica',sans-serif;
+	font-weight: 300;
+	font-size: 300%;
+	margin: 0cm 0cm 0cm 0cm;
+}
+
+h2 {
+	font-family: 'Raleway', 'Helvetica Neue', 'Helvetica', sans-serif;
+	font-weight: 300;
+	font-size: 150%;
+	color: #505050;
+	margin: 0cm 0cm 0cm 0cm;
+}
+
+h3 {
+	font-family: 'Raleway', 'Helvetica Neue','Helvetica',sans-serif;
+	font-weight: 300;
+	font-size: 125%;
+	color: #505050;
+	margin: 0cm 0cm 0cm 0cm;
+}
+
+main {
+    background-image: url("../img/ricepaper_v3.png");
+    opacity: 0.9;
+}
+
+header {
+	padding: 1em 1em 1em 1em;
+	color: #FFFFFF;
+	background-color: #FA5A0F;
+	border-bottom-width: 5px;
+    border-bottom: solid #ea4a00;
+  		h3 {
+  		color: #EEEEEE;
+  		margin: 0cm 0cm 0cm 0cm;
+  	}
+}
+
+#genInfo {
+	padding: 1em 1em 1em 1em;
+}
+
+#menu {
+	padding: 1em 1em 1em 1em;
+	background: rgba(207, 205, 140, 0.5);
+}
+
+dt {
+		font-weight: 400;
+}
+
+dd {
+		font-size: 80%;
+		font-style: italic;
+}
+
+#aboutUs {
+	padding: 1em 1em 1em 1em;
+}
+
+footer{
+	padding: 1em 1em 1em 1em;
+	background-color: #FC892F;
+	text-align: right;
+    border-top-width: 5px;
+    border-top: solid #ec791f;
+}
+
+
+
+
+
